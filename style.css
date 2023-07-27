@@ -17,3 +17,11 @@ position:absolute;
 top: 0;
 right: 30%;
 }
+nav {
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
