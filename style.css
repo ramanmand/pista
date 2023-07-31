@@ -80,4 +80,83 @@ nav ul a:hover:after{
   font-size: 15px;
   letter-spacing: 1px;
 }
-.main-content
+.main-content button{
+  margin-top: 2.5rem;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  padding: 0.5rem 2.5rem 0.5rem 1rem;
+  border-radius: 0 50% 50% 0;
+  background-color: #494234;
+  color: white;
+  cursor: pointer;
+}
+.swiper{
+  width: 20rem;
+}
+.swiper-slide{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right{
+  position: absolute;
+  right: 8%;
+  bottom: 20%;
+}
+.box{
+  display: flex;
+  align-items: center;
+}
+.right.box.image{
+  width: 70%;
+}
+.image{
+  margin-top: 2rem;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: -5px 5px 17px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+.image:hover{
+  background-color: rgba(73,66,53,0.7);
+}
+.box .inner-box{
+  margin: 1.5rem 0 0 1rem;
+}
+.box .inner-box p{
+  font-size: 14px;
+  font-weight: 500;
+}
+.social-links{
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+}
+.social-links::before{
+  content:"";
+  width: 80%;
+  height: 3px;
+  position: absolute;
+  top: 42%;
+  left: -150px;
+  background-color:#494234;
+}
+.social-links i{
+  margin-left: 10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #93c572;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+.social-links i:hover{
+  transform: translateY(-5px);
+}
