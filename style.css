@@ -75,3 +75,9 @@ nav ul a:hover:after{
   letter-spacing: 1px;
   color: #494234;
 }
+.main-content p{
+  margin-top: 10px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.main-content
