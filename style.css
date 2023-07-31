@@ -56,3 +56,22 @@ nav ul a::after{
 nav ul a:hover:after{
   width: 100%;
 }
+.main-content {
+  width: 60%;
+  padding-top: 100px;
+  margin-left: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.image-pista ,.main-text{
+  flex-basis: 50%;
+}
+.image-pista img{
+  width: 100%;
+}
+.main-content h1 {
+  font-size: 60px;
+  letter-spacing: 1px;
+  color: #494234;
+}
